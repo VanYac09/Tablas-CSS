@@ -1,0 +1,81 @@
+/* Ya no normalice los estilos*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:rgba(76, 45, 144, 0.674);
+}
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th,td{
+    border: 2px solid rgba(39, 5, 42, 0.674);
+    border-collapse: collapse;
+    background-color: rgb(247, 172, 208);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table, th{
+    border: 4px solid black;
+}
+th{
+    background-color: rgb(94, 17, 97);
+    color: aliceblue;
+}
+header{
+    background-color: rgb(56, 4, 72);
+    padding: 15px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2{
+    color: #b2d8fa;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.data{
+    background-color: rgb(255, 255, 255);
+}
+.empresa{
+    border: 8px solid black;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+iframe{
+    display: block;
+    width: 900px;
+    height: 350px;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+footer{
+    background-color: rgb(56, 4, 72);
+}
